@@ -21,8 +21,10 @@
         android:id="@+id/imageView2"
         android:layout_width="270dp"
         android:layout_height="100dp"
-        android:layout_marginTop="348dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:srcCompat="@drawable/senaigames"
-        tools:layout_editor_absoluteX="86dp" />
+        app:layout_constraintVertical_bias="0.499"
+        app:srcCompat="@drawable/senaigames" />
 </androidx.constraintlayout.widget.ConstraintLayout>
